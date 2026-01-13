@@ -37,7 +37,7 @@ public class TaskCli {
                     System.out.println("Unknown command");
             }
         }  catch (Exception e) {
-            System.out.println("Error");
+            System.out.println("Error: Wrong command");
         }
     }
 }
